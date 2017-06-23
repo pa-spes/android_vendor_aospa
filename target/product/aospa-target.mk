@@ -201,6 +201,9 @@ PRODUCT_PACKAGES += \
 # Qualcomm Common
 $(call inherit-product, device/qcom/common/common.mk)
 
+# Reduce system server verbosity
+PRODUCT_SYSTEM_SERVER_DEBUG_INFO := false
+
 # Rescue Party
 # Disable RescueParty due to high risk of data loss
 PRODUCT_PRODUCT_PROPERTIES += \
