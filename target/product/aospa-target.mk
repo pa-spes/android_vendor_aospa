@@ -19,10 +19,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 # Some CTS test case failed after enabling feature config_stopSystemPackagesByDefault
 PRODUCT_PACKAGES += initial-package-stopped-states-aosp.xml
 
-# Abstruct
-PRODUCT_PACKAGES += \
-    Abstruct
-
 # AOSPA Version.
 $(call inherit-product, vendor/aospa/target/product/version.mk)
 
@@ -50,6 +46,10 @@ PRODUCT_PACKAGES += \
 # curl
 PRODUCT_PACKAGES += \
     curl
+
+# Debloater
+PRODUCT_PACKAGES += \
+    Debloater
 
 # Dex2oat
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
