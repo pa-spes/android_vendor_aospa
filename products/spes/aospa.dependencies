@@ -1,13 +1,13 @@
 [
     {
-        "remote":       "aospa",
-        "repository":   "AOSPA/android_device_xiaomi_spes",
+        "remote":       "github",
+        "repository":   "pa-spes/android_device_xiaomi_spes",
         "target_path":  "device/xiaomi/spes",
         "revision":     "uvite"
     },
     {
-        "remote":       "aospa",
-        "repository":   "AOSPA/android_device_xiaomi_sm6225-common",
+        "remote":       "github",
+        "repository":   "pa-spes/android_device_xiaomi_sm6225-common",
         "target_path":  "device/xiaomi/sm6225-common",
         "revision":     "uvite"
     },
